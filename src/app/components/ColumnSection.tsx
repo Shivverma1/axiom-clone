@@ -3,7 +3,7 @@ import { Zap, BarChart3, ChevronUp, Filter } from "lucide-react";
 import TokenCard from "./TokenCard.tsx";
 import NewPairsTokenCard from "./NewPairsTokenCard.tsx";
 import FiltersModal from "./FiltersModal.tsx";
-import { EnhancedToken } from "./tokenUtils.tsx";
+import { EnhancedToken } from "./tokenUtils.ts";
 
 interface ColumnSectionProps {
   title: string;
