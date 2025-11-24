@@ -1,28 +1,33 @@
 "use client";
 
 import React from "react";
-import ReduxProvider from "./ReduxProvider";
-import Header from "./Header";
-import Main from "./Main";
-import Footer from "./Footer";
-import { TradingProvider } from "./TradingContext";
-import TradingInterface from "./TradingInterface";
-import { useTrading } from "./TradingContext";
+
+// 🔥 MUST include .tsx extensions
+import ReduxProvider from "./ReduxProvider.tsx";
+import Header from "./Header.tsx";
+import Main from "./Main.tsx";
+import Footer from "./Footer.tsx";
+
+import { TradingProvider } from "./TradingContext.tsx";
+import TradingInterface from "./TradingInterface.tsx";
+import { useTrading } from "./TradingContext.tsx";
 
 const AppContent: React.FC = () => {
   const { isTradingOpen, selectedToken, closeTrading } = useTrading();
 
   return (
     <div className="h-screen bg-[#0A0A0A] flex flex-col relative overflow-hidden">
-      {/* Fixed / sticky Header on top */}
+      {/* Fixed Header */}
       <Header />
-      {/* Main content area grows and centers the Main frame */}
+
+      {/* Main content */}
       <div className="flex-1 flex flex-col relative overflow-hidden">
         <Main />
       </div>
-      {/* Fixed footer at bottom */}
+
+      {/* Footer */}
       <Footer />
-      
+
       {/* Trading Interface */}
       {selectedToken && (
         <TradingInterface
@@ -45,4 +50,4 @@ const AppLayout: React.FC = () => {
   );
 };
 
-export default AppLayout; 
+export default AppLayout;

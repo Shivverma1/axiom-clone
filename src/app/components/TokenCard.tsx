@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
-import { useTrading } from './TradingContext';
+import { useTrading } from './TradingContext.tsx';
 
 interface TokenData {
   name: string;

@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
-import { enhanceTokenData, mockTokens } from "./tokenUtils";
-import ColumnSection from "./ColumnSection";
+import { enhanceTokenData, mockTokens } from "./tokenUtils.tsx";
+import ColumnSection from "./ColumnSection.tsx.";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../store";
 import { setTokens } from "../slices/tokenSlice";

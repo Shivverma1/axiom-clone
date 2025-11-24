@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Zap, BarChart3, ChevronUp, Filter } from "lucide-react";
-import TokenCard from "./TokenCard";
-import NewPairsTokenCard from "./NewPairsTokenCard";
-import FiltersModal from "./FiltersModal";
-import { EnhancedToken } from "./tokenUtils";
+import TokenCard from "./TokenCard.tsx";
+import NewPairsTokenCard from "./NewPairsTokenCard.tsx";
+import FiltersModal from "./FiltersModal.tsx";
+import { EnhancedToken } from "./tokenUtils.tsx";
 
 interface ColumnSectionProps {
   title: string;

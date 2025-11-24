@@ -2,10 +2,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { X, TrendingUp, TrendingDown, Star, Bell, Settings, Camera, Maximize2, ChevronDown } from 'lucide-react';
-import TradingViewChart from './TradingViewChart';
-import SimpleChart from './SimpleChart';
-import LightweightChart from './LightweightChart';
-import WorkingChart from './WorkingChart';
+import TradingViewChart from './TradingViewChart.tsx';
+import SimpleChart from './SimpleChart.tsx';
+import LightweightChart from './LightweightChart.tsx';
+import WorkingChart from './WorkingChart.tsx';
 
 interface TradingInterfaceProps {
   token: {
