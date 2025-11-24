@@ -3,14 +3,14 @@
 import React from "react";
 
 // 🔥 MUST include .tsx extensions
-import ReduxProvider from "./ReduxProvider.tsx";
-import Header from "./Header.tsx";
-import Main from "./Main.tsx";
-import Footer from "./Footer.tsx";
+import ReduxProvider from "./ReduxProvider";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
 
-import { TradingProvider } from "./TradingContext.tsx";
-import TradingInterface from "./TradingInterface.tsx";
-import { useTrading } from "./TradingContext.tsx";
+import { TradingProvider } from "./TradingContext";
+import TradingInterface from "./TradingInterface";
+import { useTrading } from "./TradingContext";
 
 const AppContent: React.FC = () => {
   const { isTradingOpen, selectedToken, closeTrading } = useTrading();

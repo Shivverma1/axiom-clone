@@ -2,7 +2,7 @@
 
 import { memo } from "react"
 import { Star, TrendingUp } from "lucide-react"
-import { Button } from "./ui/button.tsx"
+import { Button } from "./ui/button"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../components/ui/tooltip"
 
 export const SecondaryNav = memo(() => {

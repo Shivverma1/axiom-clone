@@ -10,7 +10,7 @@ import {
   Ban,
 } from "lucide-react";
 import * as Tooltip from "@radix-ui/react-tooltip";
-import DisplayDropdown from "./DisplayDropdown.tsx"; // Ensure this is defined
+import DisplayDropdown from "./DisplayDropdown"; // Ensure this is defined
 
 export interface ControlBarProps {
   showDisplayDropdown: boolean;

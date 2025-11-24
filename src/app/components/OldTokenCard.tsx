@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { EnhancedToken } from "./tokenUtils.ts";
+import { EnhancedToken } from "./tokenUtils";
 
 const OldTokenCard: React.FC<{ token: EnhancedToken }> = ({ token }) => {
   const [currentPrice, setCurrentPrice] = useState(token.price);

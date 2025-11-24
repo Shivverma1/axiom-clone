@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import LogoBrand from "./LogoBrand.tsx";
-import SearchBar from "./SearchBar.tsx";
-import DepositButton from "./DepositButton.tsx";
-import IconCluster from "./IconCluster.tsx";
-import ControlBar from "./ControlBar.tsx";
-import { SecondaryNav } from "./SecondaryNav.tsx"; // <-- Import added
+import LogoBrand from "./LogoBrand";
+import SearchBar from "./SearchBar";
+import DepositButton from "./DepositButton";
+import IconCluster from "./IconCluster";
+import ControlBar from "./ControlBar";
+import { SecondaryNav } from "./SecondaryNav"; // <-- Import added
 
 const NAV_ITEMS = [
   "Discover", "Pulse", "Trackers", "Perpetuals", "Yield", "Portfolio", "Rewards"
