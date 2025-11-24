@@ -2,7 +2,6 @@
 
 import React from "react";
 
-// 🔥 MUST include .tsx extensions
 import ReduxProvider from "./ReduxProvider";
 import Header from "./Header";
 import Main from "./Main";
