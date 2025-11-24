@@ -173,7 +173,8 @@ Or let GitHub → Vercel auto-deploy from the `main` branch.
 
 ## 📸 Screenshots
 
-(Add screenshots whenever you're ready)
+<img width="1919" height="935" alt="image" src="https://github.com/user-attachments/assets/bb2c7e31-a4c1-4ce9-9e0c-874de0890697" />
+
 
 ---
 
