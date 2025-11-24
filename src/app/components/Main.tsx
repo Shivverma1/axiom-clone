@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo, useEffect } from "react";
 import { enhanceTokenData, mockTokens } from "./tokenUtils.tsx";
-import ColumnSection from "./ColumnSection.tsx.";
+import ColumnSection from "./ColumnSection.tsx";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../store";
 import { setTokens } from "../slices/tokenSlice";
